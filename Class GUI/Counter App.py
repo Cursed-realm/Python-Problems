@@ -1,61 +1,61 @@
-# import tkinter as tk
+import tkinter as tk
  
-# root = tk.Tk()
-# root.geometry('400x200')
-# root.title('First App')
-# count = 0
-# def increase():
-#     global count
-#     count+=1
-#     disp.config(bg='skyblue',text=f'{count}')
+root = tk.Tk()
+root.geometry('400x200')
+root.title('First App')
+count = 0
+def increase():
+    global count
+    count+=1
+    disp.config(bg='skyblue',text=f'{count}')
 
-# def decrease():
-#     global count
-#     count -=1
-#     disp.config(bg='skyblue',text=f'{count}')
+def decrease():
+    global count
+    count -=1
+    disp.config(bg='skyblue',text=f'{count}')
 
-# disp = tk.Label(root,text='Hello World')
-# disp.pack()
+disp = tk.Label(root,text='Hello World')
+disp.pack()
 
-# bt = tk.Button(root,text='Increment',command=increase)
-# bt.pack()
+bt = tk.Button(root,text='Increment',command=increase)
+bt.pack()
 
-# bt = tk.Button(root,text='Decrement',command=decrease)
-# bt.pack()
+bt = tk.Button(root,text='Decrement',command=decrease)
+bt.pack()
 
-# root.mainloop()
+root.mainloop()
 
 
 
-# import tkinter as tk
+import tkinter as tk
  
-# root = tk.Tk()
-# root.geometry('400x200')
-# root.title('First App')
-# count = 0
-# def increase():
-#     global count
-#     count+=1
-#     disp.config(bg='skyblue',text=f'{count}')
+root = tk.Tk()
+root.geometry('400x200')
+root.title('First App')
+count = 0
+def increase():
+    global count
+    count+=1
+    disp.config(bg='skyblue',text=f'{count}')
 
-# def decrease():
-#     global count
-#     count -=1
-#     disp.config(bg='skyblue',text=f'{count}')
+def decrease():
+    global count
+    count -=1
+    disp.config(bg='skyblue',text=f'{count}')
 
-# disp = tk.Label(root,font=('bold',300))
-# disp.pack()
+disp = tk.Label(root,font=('bold',300))
+disp.pack()
 
-# bt = tk.Button(root,text='Increment',command=increase)
-# bt.pack(side=tk.RIGHT)
+bt = tk.Button(root,text='Increment',command=increase)
+bt.pack(side=tk.RIGHT)
 
-# bt = tk.Button(root,text='Decrement',command=decrease)
-# bt.pack(side=tk.LEFT)
+bt = tk.Button(root,text='Decrement',command=decrease)
+bt.pack(side=tk.LEFT)
 
-# root.mainloop()
+root.mainloop()
 
 
-
+-----------------------------------------------------------------------------------------------------------------------------------
 
 import tkinter as tk
  
